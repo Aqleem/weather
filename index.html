@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="main-div">
+
+        <div class="user-info-div">
+            <form>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2" onclick="getWeather()"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div>
+            <h3>WEATHER FORECAST</h3>
+            <h2 class="city">Karachi</h2>
+
+
+
+        </div>
+        <div id="weather">
+            <div>
+                <h4>
+                    <img class="i" style="height: 100px;" src="svg/wi-day-cloudy-windy.svg" alt="icon"><span class="temp">17</span>°C
+                </h4>
+            </div>
+            <ul>
+                <li class="location">Florence, TC</li>
+                <li class="desc">Partly Cloudy</li>
+                <li>E <span class="w-speed">6.44</span>km/h</li>
+
+            </ul>
+            <span class="details_forecast">Thu: 30</span>
+            <span class="details_forecast">FRI: 30</span>
+            <span class="details_forecast">SAT: 30</span>
+            <span class="details_forecast">SUN: 30</span>
+            <span class="details_forecast">MON: 30</span>
+            <span class="details_forecast">TUE: 30</span>
+            <span class="details_forecast">WED: 30</span>
+        </div>
+    </div>
+
+</body>
+
+</html>

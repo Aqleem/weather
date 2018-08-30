@@ -1,0 +1,108 @@
+.weathericon-29 {
+    font-weight: 100px;
+}
+
+.main-div {
+    text-align: center;
+}
+
+h3 {
+    font-weight: 300;
+    margin: 60px 0 20px 0;
+    padding: 0;
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+#weather {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#weather li {
+    background: #fff;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+span.details_forecast {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin: 0 3px;
+    white-space: nowrap;
+    margin-bottom: 6px;
+    min-width: 100px;
+}
+
+#weather .i {
+    font-family: weather;
+    font-size: 150px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.0;
+    text-transform: none;
+}
+
+#weather h4 {
+    margin: 0 0 8px;
+    font-size: 100px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.lead {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+.user-info-div {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
+.input-group {
+    margin: 3em;
+    max-width: 500px;
+}
+
+@media (min-width: 200px) and (max-width: 454px) {
+    body {
+        background-color: #00000066;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
